@@ -1,0 +1,70 @@
+<html>
+
+<head>
+    <title>Student Enrollment Form</title></head>
+
+</head>
+<body>
+    <link rel="stylesheet" href="i.css" />
+   
+    <div class="container">
+    <h1>STUDENT ENROLLMENT FORM</h1>
+    <form name="registration" class="registartion-form" onsubmit="return formValidation()">
+      <table>
+        <tr>
+          <td><label for="name">Name:</label></td>
+          <td><input type="text" name="name" id="name" placeholder="your name"></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td><input type="text" name="email" id="email" placeholder="your email"></td>
+        </tr>
+        <tr>
+          <td><label for="password">Password:</label></td>
+          <td><input type="password" name="password" id="password"></td>
+        </tr>
+        <tr>
+          <td><label for="phoneNumber">Phone Number:</label></td>
+          <td><input type="number" name="phoneNumber" id="phoneNumber"></td>
+        </tr>
+        <tr>
+          <td><label for="gender">Gender:</label></td>
+          <td><input type="radio" name="gender" value="male">Male:
+            <input type="radio" name="gender" value="female">Female:
+            </td></tr>
+            <tr>
+                <td><label for="DOB">DOB:</label></td>
+                <td><input type="text" name="DOB" id="DOB" placeholder="DOB">
+                  </td></tr>
+             <tr>
+              <left>
+                <td><lable for="Skills">Skills:</lable></td></left></tr>
+                <tr>
+                <td><input type="checkbox" id="C" name="C" value="C"/></td> 
+                <td> <label for=""C>C</label> </td><br></tr>
+                <tr>
+                <td><input type="checkbox" id="Java" name="Java" value="Java" checked=?yes?/> </td>  
+                <td><label for ="java">Java</label></td><br> </tr>
+                <tr>
+                <td><input type="checkbox" id="css" name="css" value="css"/></td>
+                <td><label for="css">CSS</label> </td> <br> </tr>
+                <tr>
+                <td><input type="checkbox" id="HTML" name="HTML" value="HTML"/> 
+                <td><label for="HTML">HTML</label> </td>   <br> </tr>
+        </td>
+        </left>
+        </tr>
+        <tr>
+          <td><label for="address">Address:</label></td>
+          <td><input type="text" name="text" id="Address"></td>
+        </tr>
+        
+        <tr>
+          <td colspan="2"><input type="button" id="btnregister"  onclick="display();" value="Register"/></td>
+          
+        </tr>
+      </table>
+    </form>
+  </div>
+  </body>
+  </html>
